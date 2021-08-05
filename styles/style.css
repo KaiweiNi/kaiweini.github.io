@@ -1,0 +1,35 @@
+html {
+    background-color: #f5f5f5;
+    font-size: 12px; /*Comments in CSS are done like this */
+    font-family: 'Roboto Slab', serif; /*copy this from google "CSS rules to specify families"*/
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9e1b;
+    padding: 0 20px 20px 20px; 
+    /* NOTE: the value order for padding is top,right,bottom,left*/
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: peachpuff;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li, a {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
